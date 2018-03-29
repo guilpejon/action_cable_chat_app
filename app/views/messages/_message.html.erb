@@ -3,6 +3,6 @@
     <%= message.user.username %>:
   </div>
   <div class="message-content">
-    <%= message.content %>
+    <%= sanitize markdown_to_text(message.content) %>
   </div>
 </div>
