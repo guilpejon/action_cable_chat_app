@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.4.1'
 
+
 gem 'bcrypt',                  '3.1.11'
 gem 'coffee-rails',            '4.2.1'
 gem 'faker',                   '1.6.6'
